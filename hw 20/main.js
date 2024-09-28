@@ -1,4 +1,4 @@
-console.log('HW 20 JS')
+// console.log('HW 20 JS')
 
 
 
@@ -27,39 +27,30 @@ console.log('HW 20 JS')
 
 
 
-/*
- * #3
- *
- * Функція defUpperStr('My text') повертає текст, перетворений у верхній регістр, тобто: defUpperStr('My text') → 'MY TEXT'.
- *
- * Якщо функція викликається без параметра defUpperStr(), вона не повинна повертати undefined, у цьому випадку потрібно повернути рядок тексту за замовчуванням у верхньому регістрі, тобто defUpperStr() → 'DEFAULT TEXT'.
- *
- * При виконанні завдання не використовуйте оператор if, потрібен розв'язок із логічним оператором ||.
- */
+// function defUpperStr(text) {
+//     return (text || 'DEFAULT TEXT').toUpperCase();
+// }
+// console.log(defUpperStr('My text'));
+// console.log(defUpperStr());
 
-// console.log(defUpperStr('My text')) // MY TEXT
-// console.log(defUpperStr())             // DEFAULT TEXT
 
-/*
- * #4
- *
- * Створіть функцію evenFn(n), яка приймає параметром число - кількість ітерацій циклу, тобто for 0..n.
- * Функція повинна повернути масив, що складається тільки з парних значень, які генеруються в циклі.
- *
- * Причому:
- * 0 не повинен потрапляти до результуючого масиву,
- * цикл має працювати до n включно,
- * дозволено тільки оператор for.
- *
- * Наприклад:
- * evenFn(10) → [2, 4, 6, 8, 10]
- * evenFn(15) → [2, 4, 6, 8, 10, 12, 14]
- * evenFn(20) → [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
- */
 
-// console.log(evenFn(10)) // [2, 4, 6, 8, 10]
-// console.log(evenFn(15)) // [2, 4, 6, 8, 10, 12, 14]
-// console.log(evenFn(20)) // [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+// function evenFn(n) {
+//     const result = [];
+//     for (let i = 0; i <= n; i++) {
+//         if (i % 2 === 0 && i !== 0) {
+//             result.push(i);
+//         }
+//     }
+//     return result;
+// }
+// console.log(evenFn(10)); // [2, 4, 6, 8, 10]
+// console.log(evenFn(15)); // [2, 4, 6, 8, 10, 12, 14]
+// console.log(evenFn(20)); // [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+
+
 
 /*
  * #5
