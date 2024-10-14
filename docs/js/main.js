@@ -1,7 +1,8 @@
-console.log('HW 22')
+console.log("HW 22");
 
-import { counter } from '/js/counter.js';
-import { list } from '/js/mathMax.js';
+import { counter } from "../js/counter.js";
+import { counterFactory } from "../js/counterFactory.js";
+import { list } from "../js/mathMax.js";
 
 /*
  * #2
@@ -26,7 +27,7 @@ import { list } from '/js/mathMax.js';
 // console.log(counterFactory.value())
 // console.log(counterFactory.value(100))
 // counterFactory.decrement()
-// console.log(counterFactory.value()) 
+// console.log(counterFactory.value())
 // console.log(counterFactory.value(200))
 // counterFactory.increment()
 // console.log(counterFactory.value())
