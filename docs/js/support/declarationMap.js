@@ -1,9 +1,9 @@
 MAP
 
-const data = new Map([
-    [1, 'ahaha'],
-    ['1', 'pizdec'],
-])
+// const data = new Map([
+//     [1, 'ahaha'],
+//     ['1', 'pizdec'],
+// ])
 
 console.log(data.get(1));
 console.log(data.get('1'))

@@ -39,5 +39,5 @@ class UniqueUsernames {
   console.log(`Кількість унікальних імен: ${uniqueUsernames.count()}`) // 2
   
   // Експорт для використання в тестах
-  export { CalorieCalculator, UniqueUsernames }
+  export { UniqueUsernames }
   

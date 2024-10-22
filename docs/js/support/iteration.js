@@ -1,4 +1,4 @@
-ИТЕРАЦИЯ
+// ИТЕРАЦИЯ
 
 const data = new Map()
 data.set('name', 'Vova')
@@ -8,7 +8,7 @@ console.log('keys:', data.keys())
 console.log('values:', data.values())
 console.log('entries:', data.entries())
 
-ПЕРЕБОР ИТЕРАЦИИ
+// ПЕРЕБОР ИТЕРАЦИИ
 
 for (const key of data.keys()) {
     console.log('key:', key)
@@ -22,7 +22,7 @@ for (const entry of data.entries()) {
     console.log('entry:', entry)
 }
 
-МЕТОД forEach
+// МЕТОД forEach
 
 const data = new Map()
 

@@ -27,3 +27,5 @@ class CalorieCalculator {
   calorieCalculator.removeProduct('Apple')
   console.log(calorieCalculator.getProductCalories('Apple')) // Product not found
   
+  export { CalorieCalculator }
+  
